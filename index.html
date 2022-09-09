@@ -1,0 +1,117 @@
+<!-- um site pode ter mtos arquivos html, mas o primeiro vai se chamar index -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSMeta</title>
+
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class = "dsmeta-logo-container">
+          <img src="image 1.svg" alt="DSMeta"> 
+<!--alt é o texto alternativo caso a imagem não seja carregada-->
+          <h1>DSMeta</h1>
+          <p>
+            Desenvolvido por 
+            <a href="https://github.com/jubbeez">@jubbeez</a>
+          </p>
+        </div>
+    </header>
+<!-- o header e o div estão com a intenção de delimitar um bloco -->
+<!-- shif alt S identa pra mim -->
+
+<!-- main é igual o div e tem como tarefa ser a "principal". vai ser a sessao principal da pagina -->
+<!-- section é uma sessão e vai delimitar uma area-->
+<!-- o segundo div "dsmeta-card" vai ter a largura controlada pelo primeiro div do "container". ele que deixou o retangulo cinza-->
+<!--diferença: id é unico. so um elemento no html pode ter um id. na classe podemos ter mais de um elemento com a mesma classe.-->
+<main>
+    <section id="sales">
+        <div class="dsmeta-container">
+            <div class="dsmeta-card">
+              <h2 class="dsmeta-sales-tittle">Vendas</h2>
+              <div>
+                <div class="dsmeta-form-control-container">
+                    <input class="dsmeta-form-control" type="text">
+                </div>
+<!--cada div desses é pra fazer a caixinha. por isso esta input.-->
+                <div class="dsmeta-form-control-container">
+                    <input class="dsmeta-form-control" type="text">
+                </div>
+              </div>
+               <div>
+<!--thead é o cabeçalho da tabela, tbody é o corpo e tr é a linha da tabela-->
+                <table class="dsmeta-sales-table">
+                    <thead>
+                       <tr>
+                        <th class="show992">ID</th>
+                        <th class="show576">Data</th>
+                        <th class="show992">Visitas</th>
+                        <th class="show992">Vendas</th>
+                          <th>Vendedor</th>
+                          <th>Total</th>
+                          <th>Notificar</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="show992">#341</td>
+                            <td class="show576">08/07/2022</td>
+                            <td>Anakin</th>
+                            <td class="show992">15</td>
+                            <td class="show992">11</td>
+                            <td>R$55300.00</th>
+                           <td>
+                            <div class="dsmeta-red-btn-container">
+                                <div class="dsmeta-red-btn">
+                                    <img src="notification-icon.svg" alt="Notificar">
+                                </div>
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                            <td class="show992">#341</td>
+                            <td class="show576">08/07/2022</td>
+                            <td>Anakin</th>
+                            <td class="show992">15</td>
+                            <td class="show992">11</td>
+                            <td>R$55300.00</th>
+                            <td>
+                                <div class="dsmeta-red-btn-container">
+                                    <div class="dsmeta-red-btn">
+                                        <img src="notification-icon.svg" alt="Notificar">
+                                    </div>
+                                </div>
+                            </td>
+                         </tr>
+                         <tr>
+                            <td class="show992">#341</td>
+                            <td class="show576">08/07/2022</td>
+                            <td>Anakin</th>
+                            <td class="show992">15</td>
+                            <td class="show992">11</td>
+                            <td>R$55300.00</th>
+                            <td>
+                                <div class="dsmeta-red-btn-container">
+                                    <div class="dsmeta-red-btn">
+                                        <img src="notification-icon.svg" alt="Notificar">
+                                    </div>
+                                </div>
+                            </td>
+                         </tr>
+                    </tbody>
+                </table>
+              </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+
+</body>
+</html>         
