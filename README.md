@@ -1,4 +1,3 @@
-#Site estático feito em HTML e CSS
  <h1 align="center">Site estático feito em HTML e CSS</h1>
  
 <p align="center">
