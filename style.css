@@ -18,7 +18,7 @@ body, html {
 a, a:hover, a:visited{
      color: unset;
      text-decoration: none;
-     /*tudo isso é pra que o link que colocamos não fique com uma cor aterada, idependente do mouse passar por cima ou de ter sido acessado */
+     /*tudo isso é pra que o link que colocamos não fique com uma cor alterada, independente do mouse passar por cima ou de ter sido acessado */
 }
 
 header {
