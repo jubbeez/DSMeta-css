@@ -8,7 +8,7 @@
 }
 
 /* quando tem asterisco, digo "qualquer elemento" e que é pra ter por padrão a fonte roboto. e só por segurança, caso a fonte não seja carregada é que colocamos o sans-serif */
-/* vou dizer que por padrao ningem vai ter margem. isso terei que fazer manualmente se desejar */
+/* vou dizer que por padrao ninguem vai ter margem. isso terei que fazer manualmente se desejar */
 
 body, html {
      background-color: #000;
