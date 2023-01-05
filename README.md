@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-Layout de site estático a partir do figma.com desenvolvido em HTML e CSS.
+Layout de site estático a partir do figma.com desenvolvido em HTML e CSS
 </p>
 
 <p align="center">
-O projeto foi criado durante a "semana spring react" do professor Nelio Alves.
+O projeto foi criado durante a "semana spring react" do professor Nelio Alves
 </p>
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/110649796/189395960-ec0028a2-e8ef-4ae5-9f9e-5482aa138a53.gif)
